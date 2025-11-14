@@ -26,7 +26,8 @@ object SLVCommand : BasicCommand {
         }
 
         //Debug options for me, still requires server permissions to run
-        if(commandSourceStack is Player && commandSourceStack.uniqueId == UUID.fromString("fd82b71b-1604-443d-a886-4c78076b30a1")){
+        val sender = commandSourceStack.sender
+        if(sender is Player && sender == UUID.fromString("fd82b71b-1604-443d-a886-4c78076b30a1")){
             when(args[0].lowercase()){
                 "errors" -> {
                     for (i in 0 until 1000) {

@@ -1,5 +1,5 @@
 name: ServerLogViewer
-version: '${version}'
+version: '1.0.0'
 main: fish.crafting.logviewer.ServerLogViewer
 api-version: 1.21
 authors: [ ACraftingFish ]
