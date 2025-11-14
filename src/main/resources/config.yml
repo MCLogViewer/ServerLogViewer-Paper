@@ -1,0 +1,34 @@
+#To reload this config, run /slv reload
+
+#If this is your first time using ServerLogViewer, you must
+#configure the plugin accordingly! Please follow the instructions
+#below to properly set everything up.
+baseConfig:
+  ### 1. Choose Verification Method ----------------------------------------------------------------------
+  ###   Uncomment one of the following options to choose how you're going to allow players to use ServerLogViewer.
+
+  ### 1.1 Permission Verification - Permission: 'serverlogviewer.use'
+  #verification: permission
+
+  ### 1.2 Whitelist Verification - List player UUIDs/Names who can use ServerLogViewer
+  #verification: whitelist
+  #whitelist:
+  # - ACraftingFish
+  # - fd82b71b-1604-443d-a886-4c78076b30a1
+
+  ### 1.3 LuckPerms groups - List LP groups to allow the use of ServerLogViewer
+  #verification: lpGroups
+  #lpGroups:
+  # - your_groups_here
+
+  ### 2 Safety Options ----------------------------------------------------------------------
+
+  ### Note: hideIPs won't hide IPs that were sent before this option was turned on. (e.g. reloaded on runtime)
+  hideIPs: true
+  blockedPlayers:
+  # - Notch
+  # - 069a79f4-44e9-4726-a5be-fca90e38aaf5
+
+  ### 3 Finish Setup ------------------------------------------------------------------------
+  ### Change this to true to finish your setup!
+  setup: false

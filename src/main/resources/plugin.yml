@@ -1,0 +1,6 @@
+name: ServerLogViewer
+version: '${version}'
+main: fish.crafting.logviewer.ServerLogViewer
+api-version: 1.21
+authors: [ ACraftingFish ]
+description: Plugin for the ServerLogViewer mod.

@@ -1,0 +1,11 @@
+main: fish.crafting.logviewer.ServerLogViewer
+name: ServerLogViewer
+version: '1.0'
+description: Allows you to view server logs on your client!
+api-version: '1.21.8'
+bootstrapper: fish.crafting.logviewer.SLVBootstrapper
+dependencies:
+  server:
+    LuckPerms:
+      load: BEFORE
+      required: false
